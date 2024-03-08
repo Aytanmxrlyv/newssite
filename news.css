@@ -1,0 +1,363 @@
+
+body{
+    box-sizing: border-box;
+}
+.basliq{
+    display: flex;
+    width: 100%;
+    height: 80px;
+ margin: auto;
+ background-color:#06142F;
+}
+.item{
+    display: inline-block;
+    margin: 0 30px 0 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    color: #fff;
+    padding: 10;
+    vertical-align: baseline;
+    letter-spacing: 1px;
+    text-decoration:none;
+}
+.item:hover{
+    background-color: rgb(10, 42, 53);
+    cursor: pointer;
+    font-size: larger;
+}
+.headlineshutcut{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    font-size: 20px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    overflow-y: hidden;
+    padding: 0;
+    text-align: left;   
+}
+.watchlive{
+    align-items: center;
+    display: flex;
+    margin: 0 80px 0 auto;
+    font-size: 100%;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.watchlive:hover{
+    color: rgb(223, 137, 137);
+    cursor: pointer;
+    font-size: larger;
+
+}
+.category{
+    align-items: center;
+    display: flex;
+    margin: 0 20px 0 auto;
+}
+.category:hover{
+    cursor: pointer;
+    opacity: 0.7; 
+    filter: grayscale(100%); 
+}
+
+.relative{
+    display: flex;
+    width: 100%;
+    height: 350px;
+ margin:auto;
+ background-image: url(https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+ background-position: center;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    display: block;
+    color: #fff;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing:1px;
+margin: auto;
+   }
+   h1:hover{
+    color: #9fb7e8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   }
+   .altbasliq{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    font-size: 20px;
+   font-family:sans-serif;
+    font-weight: normal;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    overflow-y: hidden;
+    padding: 0;
+    text-align: left;
+ }
+ .altbasliq_1{
+    display: inline-block;
+    margin: 0 30px 0 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    color: #fff;
+    padding: 10;
+    vertical-align: baseline;
+    letter-spacing: 1px;
+
+ }
+ .altbasliq_1:hover{
+    color: #3b568c;
+    cursor: pointer;
+    filter: grayscale(100%) ;
+}
+ 
+ .jjj{
+    margin-left:300px;
+   top: 300px;
+    position: absolute;
+ }
+ .resim{ 
+    display: flex;
+    width: 940px;
+    height: 300px;
+    margin: 10px auto 0 auto;
+    background-color: transparent;
+ 
+}
+.resim:hover{
+    cursor: pointer;
+}
+.resim_1{
+margin-left:10px;
+background-image:url(image/resim1.jpg);
+width: 300px;
+height: 300px;
+}
+.resim_2{
+    margin-left:10px;
+    background-image:url(image/resim2.jpg);
+    width: 300px;
+    height: 300px;
+    }
+
+    .resim_3{
+        margin-left:10px;
+       background-image:url(image/resim3.png);
+       background-size: contain;
+        width: 300px;
+        height: 300px;
+        }
+ .paraqrafs{
+    display: flex;
+    width: 940px;
+    height: 150px;
+    margin: 10px auto 0 auto;
+    background-color: transparent;
+
+ }  
+ .pr:hover{
+    cursor:pointer;
+    color: #535861;}
+ .pr{ 
+    margin-left:10px;
+    white-space:pre-line ;
+    width: 300px;
+    height: 150px;
+    font-family:sans-serif;
+    font-size:16px ;
+    font-weight: bold;  
+ }
+ .paraqrafs_2{
+    display: flex;
+    width: 940px;
+    height: 100px;
+    margin: 10px auto 0 auto;
+    background-color:transparent;
+    border-style:solid ;
+    border-width: 0px 0px 1px 0px;
+}
+.pr_1{ 
+    margin-left:10px;
+    white-space:pre-line ;
+    width: 300px;
+    height: 150px;
+    font-family:sans-serif;
+    font-size:14px ;
+    font-weight:lighter; 
+    border-style:solid ;
+    border-width: 1px 0px 0px 0px;
+}
+.pr_1:hover{ 
+    cursor:pointer;
+    font-size:15px;
+}
+.picture_{
+        display: flex;
+        width: 1000px;
+        height: 350px;
+        margin: 30px auto 0 auto;
+        background-color:transparent;
+        border-style: solid;
+        border-width:0px 0px 1px 0px;
+}
+.resim_4{
+    margin-top: 40px;
+    margin-left:40px;
+   background-image:url(image/picture4.png);
+   background-size: contain;
+    width: 440px;
+    height: 250px;
+    }
+ .resim_5{
+    margin-top: 40px;
+        margin-left:40px;
+       background-image:url(image/picture5.png);
+       background-size: contain;
+        width: 440px;
+        height: 250px;
+        }
+        .paraqrafs_3{
+            display: flex;
+            width: 1000px;
+            height: 100px;
+            margin: 10px auto 0 auto;
+            background-color:transparent;
+        }
+        .pr_2{ 
+            margin-left:40px;
+            white-space:pre-line ;
+            width: 440px;
+            height: 250px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size:16px ;
+            font-weight:normal; 
+        }
+        .pr_2:hover {
+            cursor:pointer;
+            color: #535861;
+        }
+        .pr_2::before{
+            content: "";
+            display: inline-block;
+            width: 10px;
+             height: 10px;
+            background-color: rgb(14, 21, 225); 
+            margin-right: 5px;
+            
+        }
+        .lists{
+            display: flex;
+            width: 1000px;
+            height: 100px;
+            background-color:transparent;
+            margin: 30px auto 0 auto;
+             border-style: dotted;
+            border-width:0px 0px 1px 0px
+    
+
+        }
+        .pp1{
+            white-space:pre-line ;
+            height: 100px;
+            width: 500px;
+            margin-left: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .pp1:hover{
+            cursor:pointer;
+            font-size:15px;
+            color: #535861;
+
+        }
+        .img1{
+            background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_focal-220x110,f_auto,q_auto:best/rockcms/2024-03/240307-Joe-Biden-SOTU-ch-2159-a547cb.jpg);
+            height: 100px;
+            width: 200px;
+            margin-left:220px;
+        
+        }
+        .img2{
+            background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_focal-220x110,f_auto,q_auto:best/rockcms/2024-01/240117-e-jean-carroll-mn-1040-a86ebe.jpg);
+            height: 100px;
+            width: 200px;
+            margin-left:220px;
+        }
+        .img3{
+            background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_focal-220x110,f_auto,q_auto:best/rockcms/2024-03/240307-Ulf-Kristersson-aa-916a-84be6f.jpg);
+            height: 100px;
+            width: 200px;
+            margin-left:220px;
+        }
+        .img4{
+            background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_focal-220x110,f_auto,q_auto:best/rockcms/2024-03/240307-donald-trump-oval-office-telephone-desk-2017-ac-909p-d10e44.jpg);
+            height: 100px;
+            width: 200px;
+            margin-left:220px;
+        }
+.img5{
+    background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_focal-220x110,f_auto,q_auto:best/rockcms/2024-03/240307-joe-biden-lgbtq-pride-month-se-1234p-afef85.jpg);
+            height: 100px;
+            width: 200px;
+            margin-left:220px;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    border: 0px;
+    font-family: inherit;
+    text-decoration:none ;
+    background-color: #06142F;
+    font-size: small;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+}
+li{
+    line-height: 2.5;
+}
+li:hover{
+    color: #535861;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+
+}
+.f1{
+    height: 400px;
+    width: 200px;
+    margin-top: 50px;
+    border: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+.f2{
+    margin-left: 100px;
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    border: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    list-style: none;
+}
